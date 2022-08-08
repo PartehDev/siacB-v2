@@ -1,4 +1,8 @@
 body {
   font-family: sans-serif;
-  background-color: #B46352;
+  background-color: white;
+}
+.darkmode {
+  background-color: black;
+  color: white;
 }
