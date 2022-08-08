@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
+    <button onclick="ldm_t()">Light mode / Dark Mode toggle</button>
     <h1>Docs for siacB v2, syntax for beginning and end inspired by ArnoldC</h1>
     <div id="getting_started">
       <h1>Getting Started</h1>
@@ -20,6 +21,11 @@
         To run your code, simply run main.py, and type <filename>, without the .sb part. Your file should run!
       </p>
     </div>
-  <h2> WIP </h2>
+    <h2> WIP </h2>
+    <script>
+      function ldm_t() {
+        var element = document.body;
+        element.classToggle("darkmode");
+      }
   </body>
 </html>
