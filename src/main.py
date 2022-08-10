@@ -28,7 +28,7 @@ class Parsing:
     run(output)
   def run(inn):
       inn_clean = inn.split("EOF")
-      new_inn = inn.split(" ")
+      new_inn = inn_clean.split(" ")
       print(new_inn)
 fileName = input("Input the filename (leave out \".sb\", and make sure it's in the directory siacB is in.")
 print(f"Searching for file {fileName}.sb in current directory.")
