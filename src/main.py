@@ -27,7 +27,7 @@ class Parsing:
         raise TypeError("bruh, no \"BEDTIME\" in file, how can you mess that up?")
     run(output)
   def run(inn):
-      inn_clean = inn.split("EOF")
+      inn_clean = inn.split("EOF")[0]
       new_inn = inn_clean.split(" ")
       print(new_inn)
 fileName = input("Input the filename (leave out \".sb\", and make sure it's in the directory siacB is in.")
